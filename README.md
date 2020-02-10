@@ -7,6 +7,7 @@ Skript geschrieben um Lohnabrechnungen und Gehaltserklärungen automatisiert zu 
 
 -Alle Pfade in relativem Pfad zum Ausführort angeben.
  "..\\muster\\" bedeutet dabei der Ordner muster im Übergeordneten Ordner des Ausuführortes.
+ Wichtig bei Pfadangaben und falls nötig in Dateinamen: zwei Backslash benutzen (\\).
 
 -Um mehr Dateien anzuhängen mit Komma getrennt und in Anführungszeichen innerhalb der eckigen Klammern entsprechend einfügen.
  z.B. um eine weitere PDF anzuhängen in 
