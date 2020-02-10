@@ -1,5 +1,5 @@
-Email Skript zum verschicken von personalisierten Emails mit
-HTML Inhalt, mehreren pdf-Dateien als Anhang und Inline HTML Bildern an eine .csv Liste mit
+# Email Skript zum verschicken von personalisierten Emails
+mit HTML Inhalt, mehreren pdf-Dateien als Anhang und Inline HTML Bildern an eine .csv Liste mit
 
 name,nachname,email,nummer
 
