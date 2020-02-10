@@ -42,14 +42,13 @@ def attach_img(i):      #attach image function
 def create_str(s):      #replace $monat$ $tag$ $jahr$ $name$ $nachname$ $datei_name$ in strings
     return s.replace("$jahr$", str(today.year)).replace("$monat$", monat[today.month - 1]).replace("$nummer$", nummer).replace("$nachname$", nachname).replace("$name$", name).replace("$tag$", str(today.day))
 
-if x["setup_done"] == False:
-    while x["setup_done"] == False:
-        print("README.txt lesen und settings.txt richtig einstellen.")
-        print("Wenn eingestellt mit beliebiger Taste fortfahren.")
-        junk = getch()
-        f = (open("settings.txt", "r"))     #reload settings to check if setup done
-        x = json.loads(f.read())
-        f.close()
+while x["setup_done"] == False:
+    print("README.txt lesen und settings.txt richtig einstellen.")
+    print("Wenn eingestellt mit beliebiger Taste fortfahren.")
+    junk = getch()
+    f = (open("settings.txt", "r"))     #reload settings to check if setup done
+    x = json.loads(f.read())
+    f.close()
 
 print(art.text2art(x["name"], "random"))        # ascii art with random font
 
