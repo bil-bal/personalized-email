@@ -44,12 +44,12 @@ def create_str(s):      #replace $monat$ $tag$ $jahr$ $name$ $nachname$ $datei_n
 
 if x["setup_done"] == False:
     while x["setup_done"] == False:
-        f = (open("settings.txt", "r"))     #reload settings to check if setup done
-        x = json.loads(f.read())
-        f.close()
         print("README.txt lesen und settings.txt richtig einstellen.")
         print("Wenn eingestellt mit beliebiger Taste fortfahren.")
         junk = getch()
+        f = (open("settings.txt", "r"))     #reload settings to check if setup done
+        x = json.loads(f.read())
+        f.close()
 
 print(art.text2art(x["name"], "random"))        # ascii art with random font
 
