@@ -24,6 +24,7 @@ def attach_file(i):     #attach file function
     with open(file_path_, "rb") as attachment:
         file = MIMEBase("application", "pdf")
         file.set_payload(attachment.read())
+        attachment.close()
 
     encoders.encode_base64(file)
 
@@ -31,9 +32,9 @@ def attach_file(i):     #attach file function
     message.attach(file)
 
 def attach_img(i):      #attach image function
-    fp = open(x["img_settings"]["img_file_path"][i], "rb")
-    msgImage = MIMEImage(fp.read())
-    fp.close()
+    with open(x["img_settings"]["img_file_path"][i], "rb") as fp:
+        msgImage = MIMEImage(fp.read())
+        fp.close()
 
     msgImage.add_header("Content-ID", x["img_settings"]["img_cid"][i])
     msgImage.add_header("Content-Disposition", "inline", filename=x["img_settings"]["img_file_name"][i])
@@ -125,4 +126,3 @@ else:
     print("\n\nDrücke eine beliebige Taste zum beenden.")
     junk = getch()
 server.quit()
-
