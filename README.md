@@ -12,11 +12,11 @@ Skript geschrieben um Lohnabrechnungen und Gehaltserklärungen automatisiert zu 
 -Um mehr Dateien anzuhängen mit Komma getrennt und in Anführungszeichen innerhalb der eckigen Klammern entsprechend einfügen.
  z.B. um eine weitere PDF anzuhängen in 
  
-  "file_name": ["bsp_name1.pdf", "bsp_name2.pdf", "neue_datei.pdf"]
+  	"file_name": ["bsp_name1.pdf", "bsp_name2.pdf", "neue_datei.pdf"]
   
   für den Pfad entsprechend das gleiche:
   
-  "file_path": ["..\\bsp_ordner\\$datei_name$", "..\\bsp_ordner2\\$datei_name$", "..\\neuer_ordner\\$datei_name$"]
+  	"file_path": ["..\\bsp_ordner\\$datei_name$", "..\\bsp_ordner2\\$datei_name$", "..\\neuer_ordner\\$datei_name$"]
 
 -In Pfaden und Dateinamen sowie im HTML Text werden die Variablen $monat$, $tag$, $jahr$, $datei_name$, $name$, $nachname$, $nummer$
  entsprechend ersetzt.
@@ -25,7 +25,7 @@ Skript geschrieben um Lohnabrechnungen und Gehaltserklärungen automatisiert zu 
  Hier auch weitere Bilder über das einfügen der Namen, Pfade, und Content-IDs an das Ende der Liste möglich.
  Content-ID als HTML Tag in <_> setzen:
  
-	"\<beispielID\>"
+	"<beispielID>"
 
 -Inhalt der HTML als .txt datei im Ausführort speichern.
 
