@@ -3,6 +3,7 @@ HTML Inhalt, mehreren pdf-Dateien als Anhang und Inline HTML Bildern an eine .cs
 
 name,nachname,email,nummer
 
+Skript geschrieben um Lohnabrechnungen und Gehaltserklärungen automatisiert zu verschicken.
 
 -Alle Pfade in relativem Pfad zum Ausführort angeben.
  "..\\muster\\" bedeutet dabei der Ordner muster im Übergeordneten Ordner des Ausuführortes.
