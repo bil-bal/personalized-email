@@ -24,11 +24,15 @@ Skript geschrieben um Lohnabrechnungen und Gehaltserklärungen automatisiert zu 
 -Inline Images in der HTML werden über die Content-ID eingesetzt. 
  Hier auch weitere Bilder über das einfügen der Namen, Pfade, und Content-IDs an das Ende der Liste möglich.
  Content-ID als HTML Tag in <_> setzen:
+ 
 	"\<beispielID\>"
 
 -Inhalt der HTML als .txt datei im Ausführort speichern.
 
 -Wenn fertig eingestellt 
+
 	"setup_done": false 
+	
  in settings.txt auf true setzen: 
+ 
 	"setup_done": true
