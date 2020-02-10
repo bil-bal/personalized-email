@@ -17,9 +17,9 @@ f.close()
 
 def attach_file(i):     #attach file function
 
-    file_name_ = create_str(x["file_settings"]["file_name"][i]) #.replace("$jahr$", str(today.year)).replace("$monat$", monat[today.month - 1]).replace("$nummer$", nummer).replace("$nachname$", nachname).replace("$name$", name)
+    file_name_ = create_str(x["file_settings"]["file_name"][i])
                 
-    file_path_ = create_str(x["file_settings"]["file_path"][i]).replace("$datei_name$", file_name_) #.replace("$jahr$", str(today.year)).replace("$monat$", monat[today.month - 1]).replace("$datei_name$", file_name_)
+    file_path_ = create_str(x["file_settings"]["file_path"][i]).replace("$datei_name$", file_name_)
 
     with open(file_path_, "rb") as attachment:
         file = MIMEBase("application", "pdf")
