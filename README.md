@@ -19,10 +19,10 @@ Skript geschrieben um Lohnabrechnungen und Gehaltserklärungen automatisiert zu 
   	"file_path": ["..\\bsp_ordner\\$datei_name$", "..\\bsp_ordner2\\$datei_name$", "..\\neuer_ordner\\$datei_name$"]
 
 -In Pfaden und Dateinamen sowie im HTML Text werden die Variablen $monat$, $tag$, $jahr$, $datei_name$, $name$, $nachname$, $nummer$
- entsprechend ersetzt.
+ entsprechend eingesetzt.
 
 -Inline Images in der HTML werden über die Content-ID eingesetzt. 
- Hier auch weitere Bilder über das einfügen der Namen, Pfade, und Content-IDs an das Ende der Liste möglich.
+ Hier auch weitere Bilder über das einfügen der Namen, Pfade und Content-IDs an das Ende der Liste möglich.
  Content-ID als HTML Tag in "< >" setzen:
  
 	"<beispielID>"
