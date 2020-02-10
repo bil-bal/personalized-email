@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <p style="font-size: 16px; font-family: Verdana">Hallo $name$,<br><br>
+        anbei deine Gehaltsabrechnung f&uuml;r $monat$ $jahr$ sowie das Beiblatt zur Gehaltserkl&auml;rung.<br>
+        Bei Fragen melde dich gerne.<br><br>
+        Viele Gr&uuml;&szlig;e,<br>
+        Max<br>
+        --<br>
+        </p>
+        <a href="www.musterseite.de"><img src="cid:musterlogo" alt="Muster Logo"></a>
+        <div style="font-size: 9.0">Buchhaltungs-Team<br>
+        Muster Firma<br><br><br>
+        Muster Firma<br>
+        Max Mustermann GmbH<br>
+        Musterstrasse 1<br>
+        12345 Musterstadt<br><br>
+        Mobil: +49 12345678<br>
+        E-Mail: <a href="mailto:max@muster.de">max@muster.de</a><br>
+        Internet: <a href="www.musterseite.de">www.musterseite.de</a><br><br>
+        Gesch&auml;ftsf&uuml;hrer: Max Mustermann
+        </div>
+    </body>
+</html>
+                    
