@@ -10,7 +10,7 @@ Skript geschrieben um Lohnabrechnungen und Gehaltserklärungen automatisiert zu 
  Wichtig bei Pfadangaben und falls nötig in Dateinamen: zwei Backslash (\\\\) benutzen.
 
 -Um mehr Dateien anzuhängen mit Komma getrennt und in Anführungszeichen innerhalb der eckigen Klammern entsprechend einfügen.
- z.B. um eine weitere PDF anzuhängen in 
+ z.B. um eine weitere PDF anzuhängen
  
   	"file_name": ["bsp_name1.pdf", "bsp_name2.pdf", "neue_datei.pdf"]
   
